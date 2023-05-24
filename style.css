@@ -1,0 +1,147 @@
+header{
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 -0.5px 10px rgba(0, 0, 0, 0.289);
+}
+header .navbar{
+    padding: 5px 0;
+}
+
+header .navbar li a{
+    color: black;
+}
+
+header{
+    align-items: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #bde0ff;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 0.5px solidblack;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+    background-color: rgba(97, 97, 97, 0.402);
+    border-radius: 16px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width:8%;
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.289);
+    padding-top: 20px;
+}
+
+footer .copy{
+    text-align: end;
+}
+
+main{
+    background-image: linear-gradient(
+        
+        #bde0ff,
+        #c4f8ef
+    );
+}
+
+section{
+    padding: 25px 0;
+}
+
+.col-lg-7{
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 10px 10px;
+}
+
+.col-lg-7 button{
+    color: black;
+}
+
+.col-lg-7 .tab-content p, li{
+    font-size: 20px;
+    padding: 20px 15px;
+}
+
+.col-lg-7 .tab-content li{
+    list-style: none;
+}
+
+#tab-info{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.382);
+}
+
+img{
+    border-radius: 16px;
+}
+
+#Home img{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.382);
+}
+
+#portifolio-cards img{
+    -moz-transform: scale(1.5);
+}
+
+#portifolio-cards{
+    margin-bottom: 50px;
+}
+
+
+#titulo-card, .card-body{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#títulos{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    padding-top: 5px;
+}
+
+#portifolio-carousel, .card{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.382);
+    border-radius: 16px;
+    background-color: #bde0ff;
+}
+
+@media screen and (max-width:576px) {
+
+    #tab-info{
+        margin: 12px 12px;
+        padding: 0 0;
+        max-width: 533px;
+    }
+
+    #tab-info p, li{
+        font-size: 15pxpx;
+    }
+
+    #tab-info p{
+        padding: 10px 10px;
+    }
+
+    .card{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:991px){
+    #tab-info{
+        margin-top: 12px;
+    }
+    .card{
+        margin-top: 10px;
+    }
+}
+
